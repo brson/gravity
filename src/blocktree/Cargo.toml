@@ -1,0 +1,8 @@
+[package]
+name = "blocktree"
+version = "0.1.0"
+authors = ["Brian Anderson <banderson@mozilla.com>"]
+
+[dependencies]
+error-chain = "0.5"
+byteorder = "0.5"
