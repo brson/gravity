@@ -131,3 +131,8 @@ impl<'a> Read for SeqReader<'a> {
         Ok(bytes_to_read)
     }
 }
+
+pub fn block_info(device: &mut BlockDevice, num: usize)
+                  -> Result<(usize, usize, bool)> {
+    panic!()
+}
